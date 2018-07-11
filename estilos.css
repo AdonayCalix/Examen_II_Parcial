@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tabla_paises {
+    border-collapse: collapse;
+    width: 100%;
+    border-color:  #1A237E;
+    font-size: 18px;
+}
+
+#tabla_paises th {
+    background-color: #1A237E;
+    color: white;
+}
+
+#tabla_paises td, a {
+    background-color: #ffffff;
+    color:  #424242;
+}
+
+#tabla_paises td, th {
+    padding: 7px;
+}
+
+#tabla_paises td a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#tabla_paises td a:hover {
+    color: #B00020;
+}
+
+#tabla_paises tr:hover td {
+    background-color: #C5CAE9;
+}
+
+.enumeracion {
+    font-size: 1.25rem;
+    padding: 5px;
+}
+
+.info{
+    text-align: left;
+}
